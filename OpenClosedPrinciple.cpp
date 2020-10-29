@@ -42,15 +42,15 @@ struct BadProductFilter {
 
 // Uses the Specification pattern to address the above concerns
 template <typename T> struct Specification {
-	virtual bool IsSatisfied(T* item) = 0;
+	virtual bool IsSatisfied(T* item) const = 0;
 };
 
 template <typename T> struct Filter {
-	virtual vector<T*> filter(vector<T*> items, Specification<T>& spec) = 0;
+	virtual vector<T*> filter(vector<T*> items, const Specification<T>& spec) = 0;
 };
 
 struct BetterProductFilter: Filter<Product> {
-	virtual vector<Product*> filter(vector<Product*> items, Specification<Product>& spec) override
+	virtual vector<Product*> filter(vector<Product*> items, const Specification<Product>& spec) override
 	{
 		vector<Product*> filteredItems;
 		for (auto& item : items)
@@ -67,9 +67,35 @@ struct ColourSpecification : Specification<Product> {
 	
 	ColourSpecification(Colour colour) : m_colour(colour) {}
 
-	virtual bool IsSatisfied(Product* item) override
+	virtual bool IsSatisfied(Product* item) const override
 	{
 		return item->Colour == m_colour;
+	}
+};
+
+struct SizeSpecification : Specification<Product> {
+	Size m_size;
+	
+	SizeSpecification(Size size) : m_size(size) {}
+
+	virtual bool IsSatisfied(Product* item) const override
+	{
+		return item->Size == m_size;
+	}
+
+};
+
+template <typename T> struct AndSpecification : Specification<T> {
+	vector<Specification<T>*> m_specs;
+
+	AndSpecification(vector<Specification<T>*> specs): m_specs(specs){}
+
+	virtual bool IsSatisfied(T* item) const override
+	{
+		for (auto& spec : m_specs)
+			if (spec->IsSatisfied(item) == false)
+				return false;
+		return true;
 	}
 };
 
@@ -80,11 +106,17 @@ void OpenClosedPrinciple() {
 
 	vector<Product*> items{ &apple, &sofa, &car };
 
-	ColourSpecification colSpec = ColourSpecification(Colour::red);
 	BetterProductFilter pf;
-
-	auto greenItems = pf.filter(items, colSpec);
 	
+	cout << "Green items:" << endl;
+	auto greenItems = pf.filter(items, ColourSpecification(Colour::green));
 	for(auto& item : greenItems)
-		std::cout << item->Name << std::endl;
+		cout << item->Name << endl;
+
+	cout << "Red and large items:" << endl;
+	vector<Specification<Product>*> specs = { &ColourSpecification(Colour::red), &SizeSpecification(Size::large) };
+	AndSpecification<Product> redAndLarge(specs);
+	auto redAndLargeItems = pf.filter(items, redAndLarge);
+	for (auto& item : redAndLargeItems)
+		cout << item->Name << endl;
 }
