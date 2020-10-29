@@ -142,6 +142,7 @@
   <ItemGroup>
     <ClCompile Include="C++ Playground.cpp" />
     <ClCompile Include="SingleResponsibilityPrinciple.cpp" />
+    <ClCompile Include="OpenClosedPrinciple.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,8 +1,13 @@
 #include <iostream>
+#include <vector>
+
+using namespace std;
 
 void SingleResponsibilityPrinciple();
+void OpenClosedPrinciple();
 
 int main()
 {
-	SingleResponsibilityPrinciple();
+	OpenClosedPrinciple();
+	std::cin.get();
 }
