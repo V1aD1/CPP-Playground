@@ -6,9 +6,10 @@ using namespace std;
 void SingleResponsibilityPrinciple();
 void OpenClosedPrinciple();
 void LiskovSubstitutionExample();
+void DependencyInversionPrinciple();
 
 int main()
 {
-	LiskovSubstitutionExample();
+	DependencyInversionPrinciple();
 	std::cin.get();
 }
