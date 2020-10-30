@@ -57,7 +57,7 @@ void LiskovSubstitutionExample() {
 	Rectangle rect{3, 4};
 	cout << "Is rect valid? " << ValidateRectangleAreaTest(rect) << endl;
 
-	// Square fails because when width changes, so does height.
+	// Uh oh, square fails because when width changes, so does height.
 	// This indicates that our abstraction/ inheritance hierarchy is poorly designed
 	Square square{ 5 };
 	cout << "Is square valid? " << ValidateRectangleAreaTest(square) << endl;
