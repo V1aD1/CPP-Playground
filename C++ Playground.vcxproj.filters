@@ -18,10 +18,10 @@
     <ClCompile Include="C++ Playground.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SingleResponsibilityPrinciple.cpp">
+    <ClCompile Include="SOLID Principles\OpenClosedPrinciple.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="OpenClosedPrinciple.cpp">
+    <ClCompile Include="SOLID Principles\SingleResponsibilityPrinciple.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

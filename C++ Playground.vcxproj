@@ -141,8 +141,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="C++ Playground.cpp" />
-    <ClCompile Include="SingleResponsibilityPrinciple.cpp" />
-    <ClCompile Include="OpenClosedPrinciple.cpp" />
+    <ClCompile Include="SOLID Principles\SingleResponsibilityPrinciple.cpp" />
+    <ClCompile Include="SOLID Principles\OpenClosedPrinciple.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
