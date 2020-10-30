@@ -5,9 +5,10 @@ using namespace std;
 
 void SingleResponsibilityPrinciple();
 void OpenClosedPrinciple();
+void LiskovSubstitutionExample();
 
 int main()
 {
-	OpenClosedPrinciple();
+	LiskovSubstitutionExample();
 	std::cin.get();
 }

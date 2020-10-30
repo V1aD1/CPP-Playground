@@ -24,5 +24,8 @@
     <ClCompile Include="SOLID Principles\SingleResponsibilityPrinciple.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SOLID Principles\LiskovSubstitutionPrinciple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

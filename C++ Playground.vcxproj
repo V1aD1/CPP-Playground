@@ -143,6 +143,7 @@
     <ClCompile Include="C++ Playground.cpp" />
     <ClCompile Include="SOLID Principles\SingleResponsibilityPrinciple.cpp" />
     <ClCompile Include="SOLID Principles\OpenClosedPrinciple.cpp" />
+    <ClCompile Include="SOLID Principles\LiskovSubstitutionPrinciple.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
