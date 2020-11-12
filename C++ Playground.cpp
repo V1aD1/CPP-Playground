@@ -8,10 +8,11 @@ void SingleResponsibilityPrinciple();
 void OpenClosedPrinciple();
 void LiskovSubstitutionExample();
 void DependencyInversionPrinciple();
-void Builder();
+void BuilderExample();
+void FluentBuilderExample();
 
 int main()
 {
-	Builder();
+	FluentBuilderExample();
 	cin.get();
 }

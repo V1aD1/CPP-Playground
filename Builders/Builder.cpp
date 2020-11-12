@@ -51,7 +51,7 @@ struct HtmlBuilder {
 	}
 };
 
-void Builder() {
+void BuilderExample() {
 	HtmlBuilder builder{ "root" };
 	builder.addChild("child 1", "child 1 text");
 	builder.addChild("child 2", "child 2 text");
