@@ -33,5 +33,8 @@
     <ClCompile Include="SOLID Principles\DependencyInversionPrinciple.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Builders\Builder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

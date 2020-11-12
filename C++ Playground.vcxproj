@@ -141,6 +141,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Builders\Builder.cpp" />
     <ClCompile Include="C++ Playground.cpp" />
     <ClCompile Include="SOLID Principles\DependencyInversionPrinciple.cpp" />
     <ClCompile Include="SOLID Principles\InterfaceSegregationPrinciple.cpp" />

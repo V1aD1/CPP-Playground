@@ -1,0 +1,8 @@
+Builder is a creational design pattern. 
+
+Some objects are complicated to construct, and having a an object with 10 constructor arguments is not
+productive. Instead, opt for piecewise construction.
+
+Builder provides an API for constructing an object step-by-step.  
+
+Basically, when piecewise object construction is complicated, provide an API for doing in succinctly.
