@@ -4,6 +4,10 @@
 #include "PersonAddressBuilder.h"
 #include "PersonJobBuilder.h"
 
+/// <summary>
+/// Different facets of an object can be built with different builders working in tandem
+/// via a base class.
+/// </summary>
 void BuilderFacetsExample() {
 	Person p = Person::create().lives().at("1234 Dundas")
 									   .withPostalCode("A7S 8T8")
