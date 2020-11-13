@@ -10,9 +10,10 @@ void LiskovSubstitutionExample();
 void DependencyInversionPrinciple();
 void BuilderExample();
 void FluentBuilderExample();
+void BuilderFacetsExample();
 
 int main()
 {
-	FluentBuilderExample();
+	BuilderFacetsExample();
 	cin.get();
 }

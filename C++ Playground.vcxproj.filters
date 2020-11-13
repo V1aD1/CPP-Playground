@@ -42,13 +42,22 @@
     <ClCompile Include="Builders\FluentBuilder\FluentElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Builders\FluentBuilder\Example.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Builders\FluentBuilder\ForcedElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Builders\FluentBuilder\ForcedElementBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Builders\BuilderFacets\Person.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Builders\BuilderFacets\PersonBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Builders\FluentBuilder\FluentBuilderExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Builders\BuilderFacets\BuilderFacetsExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -63,6 +72,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Builders\FluentBuilder\ForcedElementBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Builders\BuilderFacets\Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Builders\BuilderFacets\PersonBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Builders\BuilderFacets\PersonAddressBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Builders\BuilderFacets\PersonJobBuilder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

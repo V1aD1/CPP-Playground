@@ -142,12 +142,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Builders\Builder.cpp" />
-    <ClCompile Include="Builders\FluentBuilder\Example.cpp" />
+    <ClCompile Include="Builders\BuilderFacets\BuilderFacetsExample.cpp" />
+    <ClCompile Include="Builders\FluentBuilder\FluentBuilderExample.cpp" />
     <ClCompile Include="Builders\FluentBuilder\FluentBuilder.cpp" />
     <ClCompile Include="Builders\FluentBuilder\FluentElement.cpp" />
     <ClCompile Include="Builders\FluentBuilder\ForcedElement.cpp" />
     <ClCompile Include="Builders\FluentBuilder\ForcedElementBuilder.cpp" />
     <ClCompile Include="C++ Playground.cpp" />
+    <ClCompile Include="Builders\BuilderFacets\Person.cpp" />
+    <ClCompile Include="Builders\BuilderFacets\PersonBuilder.cpp" />
     <ClCompile Include="SOLID Principles\DependencyInversionPrinciple.cpp" />
     <ClCompile Include="SOLID Principles\InterfaceSegregationPrinciple.cpp" />
     <ClCompile Include="SOLID Principles\SingleResponsibilityPrinciple.cpp" />
@@ -159,6 +162,10 @@
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h" />
     <ClInclude Include="Builders\FluentBuilder\ForcedElement.h" />
     <ClInclude Include="Builders\FluentBuilder\ForcedElementBuilder.h" />
+    <ClInclude Include="Builders\BuilderFacets\Person.h" />
+    <ClInclude Include="Builders\BuilderFacets\PersonBuilder.h" />
+    <ClInclude Include="Builders\BuilderFacets\PersonAddressBuilder.h" />
+    <ClInclude Include="Builders\BuilderFacets\PersonJobBuilder.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
