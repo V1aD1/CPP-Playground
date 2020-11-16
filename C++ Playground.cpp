@@ -14,10 +14,10 @@ void BuilderFacetsExample();
 void FactoryMethodExample();
 void FactoryExample();
 void InnerFactoryExample();
-
+void AbstractFactoryExample();
 
 int main()
 {
-	InnerFactoryExample();
+	AbstractFactoryExample();
 	cin.get();
 }

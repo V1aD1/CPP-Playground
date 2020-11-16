@@ -151,6 +151,7 @@
     <ClCompile Include="C++ Playground.cpp" />
     <ClCompile Include="Builders\BuilderFacets\Person.cpp" />
     <ClCompile Include="Builders\BuilderFacets\PersonBuilder.cpp" />
+    <ClCompile Include="Factory\Abstract Factory\AbstractFactoryExample.cpp" />
     <ClCompile Include="Factory\Factory.cpp" />
     <ClCompile Include="Factory\FactoryMethod.cpp" />
     <ClCompile Include="Factory\InnerFactory.cpp" />
@@ -169,6 +170,9 @@
     <ClInclude Include="Builders\BuilderFacets\PersonBuilder.h" />
     <ClInclude Include="Builders\BuilderFacets\PersonAddressBuilder.h" />
     <ClInclude Include="Builders\BuilderFacets\PersonJobBuilder.h" />
+    <ClInclude Include="Factory\Abstract Factory\DrinkFactory.h" />
+    <ClInclude Include="Factory\Abstract Factory\HotDrink.h" />
+    <ClInclude Include="Factory\Abstract Factory\HotDrinkFactory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

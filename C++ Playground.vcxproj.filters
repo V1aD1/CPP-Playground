@@ -69,6 +69,9 @@
     <ClCompile Include="Factory\InnerFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Factory\Abstract Factory\AbstractFactoryExample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h">
@@ -93,6 +96,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Builders\BuilderFacets\PersonJobBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\Abstract Factory\HotDrink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\Abstract Factory\HotDrinkFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory\Abstract Factory\DrinkFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
