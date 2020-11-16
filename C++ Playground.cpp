@@ -13,9 +13,11 @@ void FluentBuilderExample();
 void BuilderFacetsExample();
 void FactoryMethodExample();
 void FactoryExample();
+void InnerFactoryExample();
+
 
 int main()
 {
-	FactoryExample();
+	InnerFactoryExample();
 	cin.get();
 }
