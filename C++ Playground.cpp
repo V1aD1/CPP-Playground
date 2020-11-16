@@ -12,9 +12,10 @@ void BuilderExample();
 void FluentBuilderExample();
 void BuilderFacetsExample();
 void FactoryMethodExample();
+void FactoryExample();
 
 int main()
 {
-	FactoryMethodExample();
+	FactoryExample();
 	cin.get();
 }
