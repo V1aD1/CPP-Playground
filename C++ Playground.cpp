@@ -11,9 +11,10 @@ void DependencyInversionPrinciple();
 void BuilderExample();
 void FluentBuilderExample();
 void BuilderFacetsExample();
+void FactoryMethodExample();
 
 int main()
 {
-	BuilderFacetsExample();
+	FactoryMethodExample();
 	cin.get();
 }

@@ -1,0 +1,12 @@
+Factories
+
+This pattern is used when object creation becomes too convoluted.
+It can be due to the constructor not being descriptive enough, in terms of its parameter names for example.
+(C++ for example does not allow a constructor overload woth the same argument types, but with different names)
+We want to avoid "optional parameter hell".
+
+Factories themselves are objects that we "outsource" object creation to. 
+We may have a separate function (Factory Method pattern), or a separate class altogether (Factory Pattern).
+Can even create a hierarchy of Factories using an Abstract Factory.
+
+Basically, a Factory is a component responsible solely for the wholesale (not piecewise) creation of objects.
