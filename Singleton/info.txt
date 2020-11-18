@@ -1,0 +1,11 @@
+Singleton Pattern
+
+A component which is instantiated only once.
+
+Used for components that we only want to have one instance of in the whole system:
+Like Database repository, or an object factory (factories aren't supposed to have a state)
+
+Or when the constructor call is super expensive, so we only want to do it once and provide everyone
+with the same instance.
+
+Or we want to prevent anyone from creating additional copies. 

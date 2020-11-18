@@ -16,9 +16,10 @@ void FactoryExample();
 void InnerFactoryExample();
 void AbstractFactoryExample();
 void PrototypeExample();
+void SingletonExample();
 
 int main()
 {
-	PrototypeExample();
+	SingletonExample();
 	cin.get();
 }

@@ -75,6 +75,9 @@
     <ClCompile Include="Prototype\Prototype.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Singleton\Singleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h">
