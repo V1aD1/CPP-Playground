@@ -17,9 +17,10 @@ void InnerFactoryExample();
 void AbstractFactoryExample();
 void PrototypeExample();
 void SingletonExample();
+void MultitonExample();
 
 int main()
 {
-	SingletonExample();
+	MultitonExample();
 	cin.get();
 }

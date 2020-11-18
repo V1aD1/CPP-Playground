@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include <map>
+#include <cassert>
 
 using namespace std;
 
@@ -32,6 +34,26 @@ public:
 	}
 };
 
+struct SingletonDatabaseHelper {
+	
+	// this is hard to test because we rely on the global DB!!
+	static int totalPop(vector<string> names) {
+		int result = 0;
+		for (auto& name : names) {
+			result += SingletonDatabase::get().getPop(name);
+		}
+		return result;
+	}
+};
+
+// only way to write tests is to use the official DB, 
+// which may change over time. Therefore this is an
+// INTEGRATION test instead of a UNIT test. 
+// But this can be fixed with dependency injection
+void TestTotalPop() {
+	assert(SingletonDatabaseHelper::totalPop(vector<string> {"Tokyo", "Paris"}) == 47000000);
+}
+
 void SingletonExample() {
 
 	// this wouldn't work because we removed "=" operator
@@ -39,4 +61,5 @@ void SingletonExample() {
 
 	auto pop = SingletonDatabase::get().getPop("Paris");
 	cout << "Population of Paris is: " << pop << endl;
+	TestTotalPop();
 }
