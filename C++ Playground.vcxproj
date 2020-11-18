@@ -155,6 +155,7 @@
     <ClCompile Include="Factory\Factory.cpp" />
     <ClCompile Include="Factory\FactoryMethod.cpp" />
     <ClCompile Include="Factory\InnerFactory.cpp" />
+    <ClCompile Include="Prototype\Prototype.cpp" />
     <ClCompile Include="SOLID Principles\DependencyInversionPrinciple.cpp" />
     <ClCompile Include="SOLID Principles\InterfaceSegregationPrinciple.cpp" />
     <ClCompile Include="SOLID Principles\SingleResponsibilityPrinciple.cpp" />
