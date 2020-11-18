@@ -27,9 +27,27 @@ struct Contact {
 	// copy constructor
 	Contact(const Contact& other): m_name(other.m_name), m_address(new Address{*other.m_address}){}
 	
+	~Contact() { delete m_address; }
+
 	friend ostream& operator<<(ostream& os, const Contact& contact) {
 		os << contact.m_name << ' ' << *contact.m_address;
 		return os;
+	}
+};
+
+struct EmployeeFactory {
+	static unique_ptr<Contact> NewMainOfficeEmployee(const string& name, const int suite) {
+		static Contact mainOfficeContact{ "", new Address{"Main office street", "Toronto", 0} };
+		return NewContact(name, suite, mainOfficeContact);
+	}
+	
+private:
+	// returns a new Contact with prepopulated address
+	static unique_ptr<Contact> NewContact(const string& name, const int suite, const Contact& prototype) {
+		auto result = make_unique<Contact>(prototype);
+		result->m_name = name;
+		result->m_address->m_suite = suite;
+		return result;
 	}
 };
 
@@ -40,7 +58,9 @@ void PrototypeExample() {
 	
 	//this change here would also change john's address, if not for the copy constructor!
 	jane.m_address->m_suite = 17;
-
 	cout << john << endl << jane << endl;
 
+	//prototype factory stuff
+	unique_ptr<Contact> mainOfficeEmployee = EmployeeFactory::NewMainOfficeEmployee("Vlad", 123);
+	cout << *mainOfficeEmployee << endl;
 }
