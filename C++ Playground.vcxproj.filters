@@ -84,6 +84,9 @@
     <ClCompile Include="Adapter\Adapter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Bridge\Pimpl\Pimpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h">
@@ -117,6 +120,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Factory\Abstract Factory\DrinkFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge\Pimpl\Pimpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

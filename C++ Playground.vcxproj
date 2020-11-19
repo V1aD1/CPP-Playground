@@ -156,6 +156,7 @@
     <ClCompile Include="Factory\Factory.cpp" />
     <ClCompile Include="Factory\FactoryMethod.cpp" />
     <ClCompile Include="Factory\InnerFactory.cpp" />
+    <ClCompile Include="Bridge\Pimpl\Pimpl.cpp" />
     <ClCompile Include="Prototype\Prototype.cpp" />
     <ClCompile Include="Singleton\Multiton.cpp" />
     <ClCompile Include="Singleton\Singleton.cpp" />
@@ -177,6 +178,7 @@
     <ClInclude Include="Factory\Abstract Factory\DrinkFactory.h" />
     <ClInclude Include="Factory\Abstract Factory\HotDrink.h" />
     <ClInclude Include="Factory\Abstract Factory\HotDrinkFactory.h" />
+    <ClInclude Include="Bridge\Pimpl\Pimpl.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

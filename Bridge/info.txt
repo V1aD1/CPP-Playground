@@ -1,0 +1,19 @@
+Bridge Pattern
+
+The bridge pattern is a mechanism that decouples and interface from an implementation, so instead of JUST using
+inheritance, you use a combination of inheritance and aggregation. 
+
+It's hard to explain, but its main use is to prevent a "Cartesian product" complexity explosion. Here's an example:
+
+Base Class ThreadScheduler
+	Which can be preemptive or cooperative
+	Which can run on Windows or Unix
+
+In order to implement ThreadSchedulers that work in all scenarios, we'd have to create 2X2 different objects:
+
+WindowsPreemptiveTS 
+UnixPreemptiveTS
+WindowsCooperativeTS 
+UnixCooperaticeTS
+
+This sucks and doesn't scale well!

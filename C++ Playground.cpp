@@ -19,9 +19,10 @@ void PrototypeExample();
 void SingletonExample();
 void MultitonExample();
 void AdapterExample();
+void PimplExample();
 
 int main()
 {
-	AdapterExample();
+	PimplExample();
 	cin.get();
 }
