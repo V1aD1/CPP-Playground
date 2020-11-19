@@ -1,0 +1,7 @@
+Adapter Pattern
+
+So, it's kind of like an adapter for different electrical sockets. An adapter allows devices to run on different 
+sockets than they were initially meant to run on. 
+
+In the same way, the adapter pattern is a construct that adapts an EXISTING interface X to conform to an  different
+interface Y.

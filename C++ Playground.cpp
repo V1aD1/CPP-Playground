@@ -18,9 +18,10 @@ void AbstractFactoryExample();
 void PrototypeExample();
 void SingletonExample();
 void MultitonExample();
+void AdapterExample();
 
 int main()
 {
-	MultitonExample();
+	AdapterExample();
 	cin.get();
 }

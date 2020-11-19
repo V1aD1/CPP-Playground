@@ -81,6 +81,9 @@
     <ClCompile Include="Singleton\Multiton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Adapter\Adapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h">
