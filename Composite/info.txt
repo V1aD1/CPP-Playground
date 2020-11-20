@@ -1,0 +1,5 @@
+Composite Pattern
+
+Used to treat both single and groups of objects the same way. 
+
+For example, Foo and Collection<Foo> have common API's.

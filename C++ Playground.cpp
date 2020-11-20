@@ -20,9 +20,11 @@ void SingletonExample();
 void MultitonExample();
 void AdapterExample();
 void PimplExample();
+void BridgeExample();
+void CompositeExample();
 
 int main()
 {
-	PimplExample();
+	CompositeExample();
 	cin.get();
 }

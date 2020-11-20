@@ -142,6 +142,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Adapter\Adapter.cpp" />
+    <ClCompile Include="Bridge\Bridge.cpp" />
     <ClCompile Include="Builders\Builder.cpp" />
     <ClCompile Include="Builders\BuilderFacets\BuilderFacetsExample.cpp" />
     <ClCompile Include="Builders\FluentBuilder\FluentBuilderExample.cpp" />
@@ -152,6 +153,7 @@
     <ClCompile Include="C++ Playground.cpp" />
     <ClCompile Include="Builders\BuilderFacets\Person.cpp" />
     <ClCompile Include="Builders\BuilderFacets\PersonBuilder.cpp" />
+    <ClCompile Include="Composite\Composite.cpp" />
     <ClCompile Include="Factory\Abstract Factory\AbstractFactoryExample.cpp" />
     <ClCompile Include="Factory\Factory.cpp" />
     <ClCompile Include="Factory\FactoryMethod.cpp" />
