@@ -23,9 +23,10 @@ void PimplExample();
 void BridgeExample();
 void CompositeExample();
 void DynamicDecoratorExample();
+void StaticDecoratorExample();
 
 int main()
 {
-	DynamicDecoratorExample();
+	StaticDecoratorExample();
 	cin.get();
 }

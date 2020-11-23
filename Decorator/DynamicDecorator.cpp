@@ -34,7 +34,7 @@ namespace DynamicDecorator {
 
 		ColoredShape(Shape& shape, const string& color) : m_shape(shape), m_color(color){}
 
-		virtual string str() const override
+		string str() const override
 		{
 			ostringstream oss;
 			oss << m_shape.str() << " with color: " << m_color;
