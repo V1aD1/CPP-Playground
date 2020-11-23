@@ -6,10 +6,10 @@ A way to augment an object with additional functionality.
 
 We have 2 options:
    
-   Take object we want to augment, stick it into another object that implements the same
-   interface and provide new functionality there, so that it looks like the same object,
+   Dynamic Decorator: Take object we want to augment, stick it into another object that implements the same
+   interface and provide new functionality there, so that it looks like the same object (ColoredShape{Square{}})
    
    OR
    
-   Inherit from the decorated object using Mixin inheritance
+   Static Decorator: Inherit from the decorated object using Mixin inheritance (ColoredShape<Square>)
    
