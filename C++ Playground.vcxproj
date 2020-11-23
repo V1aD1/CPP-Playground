@@ -154,6 +154,7 @@
     <ClCompile Include="Builders\BuilderFacets\Person.cpp" />
     <ClCompile Include="Builders\BuilderFacets\PersonBuilder.cpp" />
     <ClCompile Include="Composite\Composite.cpp" />
+    <ClCompile Include="Decorator\DynamicDecorator.cpp" />
     <ClCompile Include="Factory\Abstract Factory\AbstractFactoryExample.cpp" />
     <ClCompile Include="Factory\Factory.cpp" />
     <ClCompile Include="Factory\FactoryMethod.cpp" />

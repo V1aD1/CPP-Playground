@@ -1,0 +1,15 @@
+Decorator Pattern
+
+A way to augment an object with additional functionality.
+   However we don't want to rewrtie or alter existing code (thereby maintaining open close principle)
+   Want to keep new functionality separate anyway (thereby maintaining single responsibility principle)
+
+We have 2 options:
+   
+   Take object we want to augment, stick it into another object that implements the same
+   interface and provide new functionality there, so that it looks like the same object,
+   
+   OR
+   
+   Inherit from the decorated object using Mixin inheritance
+   

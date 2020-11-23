@@ -22,9 +22,10 @@ void AdapterExample();
 void PimplExample();
 void BridgeExample();
 void CompositeExample();
+void DynamicDecoratorExample();
 
 int main()
 {
-	CompositeExample();
+	DynamicDecoratorExample();
 	cin.get();
 }
