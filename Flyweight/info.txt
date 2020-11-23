@@ -1,0 +1,8 @@
+Flyweight Pattern
+
+A space optimization technique that lets us use less memory by externally storing data that is associated
+with multiple objects.
+
+For example, if you wanted to render a forest full of trees, you could cut down memory usage significantly
+by having every tree share a pointer to the same mesh and texture, and having every tree instance just store
+coordinates and rotation etc. 

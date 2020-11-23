@@ -25,9 +25,10 @@ void CompositeExample();
 void DynamicDecoratorExample();
 void StaticDecoratorExample();
 void FacadeExample();
+void FlyweightExample();
 
 int main()
 {
-	FacadeExample();
+	FlyweightExample();
 	cin.get();
 }

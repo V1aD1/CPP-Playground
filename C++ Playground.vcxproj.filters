@@ -102,6 +102,9 @@
     <ClCompile Include="Facade\Facade.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Flyweight\Flyweight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h">

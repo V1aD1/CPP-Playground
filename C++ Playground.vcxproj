@@ -85,7 +85,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>C:\Program Files\boost_1_73_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -162,6 +162,7 @@
     <ClCompile Include="Factory\FactoryMethod.cpp" />
     <ClCompile Include="Factory\InnerFactory.cpp" />
     <ClCompile Include="Bridge\Pimpl\Pimpl.cpp" />
+    <ClCompile Include="Flyweight\Flyweight.cpp" />
     <ClCompile Include="Prototype\Prototype.cpp" />
     <ClCompile Include="Singleton\Multiton.cpp" />
     <ClCompile Include="Singleton\Singleton.cpp" />
