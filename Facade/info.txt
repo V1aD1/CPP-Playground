@@ -1,0 +1,8 @@
+Facade Pattern
+
+Provides a simple, easy to understand user interface over a large and sophisticated body of code.
+
+For example, a house has many subsystems like AC, electrical, heating etc, but the home buyer doesn't get
+exposed to that stuff, the home buyer just cares about the house looking nice and WORKING.
+
+It's the same with software, users of your API expect it to JUST WORK, they don't care about the internals. 

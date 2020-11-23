@@ -99,6 +99,9 @@
     <ClCompile Include="Decorator\StaticDecorator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Facade\Facade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h">

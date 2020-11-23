@@ -24,9 +24,10 @@ void BridgeExample();
 void CompositeExample();
 void DynamicDecoratorExample();
 void StaticDecoratorExample();
+void FacadeExample();
 
 int main()
 {
-	StaticDecoratorExample();
+	FacadeExample();
 	cin.get();
 }

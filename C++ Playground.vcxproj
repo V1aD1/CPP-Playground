@@ -156,6 +156,7 @@
     <ClCompile Include="Composite\Composite.cpp" />
     <ClCompile Include="Decorator\DynamicDecorator.cpp" />
     <ClCompile Include="Decorator\StaticDecorator.cpp" />
+    <ClCompile Include="Facade\Facade.cpp" />
     <ClCompile Include="Factory\Abstract Factory\AbstractFactoryExample.cpp" />
     <ClCompile Include="Factory\Factory.cpp" />
     <ClCompile Include="Factory\FactoryMethod.cpp" />
