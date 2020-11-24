@@ -3,3 +3,9 @@ Proxy Pattern
 A class that functions as an interface to a particular resource, and APPEARS to be the same as that resource. That resource may be remote, expensive to construct, or may require logging or some other added functionality. 
 
 A good example of proxies are smart pointers in C++. They looks an behave just like a normal pointer to a resource, however they have the added benefit of not needing to be manually deleted!
+
+Proxy vs Decorator
+
+Proxy provides an identical interface, decorator provides an ENHANCED interface.
+Decorator typically aggregates (or has reference to) what it is decorating, proxy doesn't have to.
+Proxy might not even be working with a materialized object (Look at LaxyBitmap example in code).
