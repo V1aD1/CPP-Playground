@@ -4,6 +4,8 @@ using namespace std;
 
 namespace PropertyProxy {
 	
+	// instead of logging assignment in getter and setter for each property,
+	// it's easier to just use a property template
 	template <typename T> struct LoggedProperty {
 		LoggedProperty(T value) {
 			*this = value;

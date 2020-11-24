@@ -27,9 +27,10 @@ void StaticDecoratorExample();
 void FacadeExample();
 void FlyweightExample();
 void PropertyProxyExample();
+void VirtualProxyExample();
 
 int main()
 {
-	PropertyProxyExample();
+	VirtualProxyExample();
 	cin.get();
 }
