@@ -164,6 +164,7 @@
     <ClCompile Include="Bridge\Pimpl\Pimpl.cpp" />
     <ClCompile Include="Flyweight\Flyweight.cpp" />
     <ClCompile Include="Prototype\Prototype.cpp" />
+    <ClCompile Include="Proxy\PropertyProxy.cpp" />
     <ClCompile Include="Singleton\Multiton.cpp" />
     <ClCompile Include="Singleton\Singleton.cpp" />
     <ClCompile Include="SOLID Principles\DependencyInversionPrinciple.cpp" />

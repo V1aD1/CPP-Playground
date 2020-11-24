@@ -8,4 +8,8 @@ Like Database repository, or an object factory (factories aren't supposed to hav
 Or when the constructor call is super expensive, so we only want to do it once and provide everyone
 with the same instance.
 
-Or we want to prevent anyone from creating additional copies. 
+Or we want to prevent anyone from creating additional copies.
+
+A MULTITON is a variation of a singleton, but instead of only allowing
+1 instance of an object, it RESTRICTS the number of objects, depending
+on some keys.
