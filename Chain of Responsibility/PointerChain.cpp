@@ -25,6 +25,7 @@ namespace PointerChain {
 	public:
 		CreatureModifier(Creature& creature) : m_creature(creature) {}
 		
+		// adds modifier to the end of the linked list chain of responsibility
 		void add(CreatureModifier* mod) {
 			if (m_next)
 				m_next->add(mod);

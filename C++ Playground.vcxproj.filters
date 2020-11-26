@@ -114,6 +114,9 @@
     <ClCompile Include="Chain of Responsibility\PointerChain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Chain of Responsibility\BrokerChain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h">

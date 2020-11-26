@@ -29,9 +29,10 @@ void FlyweightExample();
 void PropertyProxyExample();
 void VirtualProxyExample();
 void PointerChainExample();
+void BrokerChainExample();
 
 int main()
 {
-	PointerChainExample();
+	BrokerChainExample();
 	cin.get();
 }
