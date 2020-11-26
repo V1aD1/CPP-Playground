@@ -1,6 +1,6 @@
 Proxy Pattern
 
-A class that functions as an interface to a particular resource, and APPEARS to be the same as that resource. That resource may be remote, expensive to construct, or may require logging or some other added functionality. 
+A class that functions as an interface to a particular resource, and replicates the interface of said object. That resource may be remote, expensive to construct, or may require logging or some other added functionality. Add relevant functionality to the redefined member functions. 
 
 A good example of proxies are smart pointers in C++. They looks an behave just like a normal pointer to a resource, however they have the added benefit of not needing to be manually deleted!
 

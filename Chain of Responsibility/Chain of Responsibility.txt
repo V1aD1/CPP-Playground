@@ -1,0 +1,10 @@
+Chain of Responsibility
+
+A chain of components who all get a change to process a command or a query, optionally having a default processing implementation and an ability to terminate the processing chain.
+
+Example:
+
+You click a graphical element on a form,
+	Button itself handles it and stop further processing or,
+	Underlying group box can handle it and stop further processing or,
+	Underlying window can hande it and stop further processing etc.

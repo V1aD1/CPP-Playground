@@ -28,9 +28,10 @@ void FacadeExample();
 void FlyweightExample();
 void PropertyProxyExample();
 void VirtualProxyExample();
+void PointerChainExample();
 
 int main()
 {
-	VirtualProxyExample();
+	PointerChainExample();
 	cin.get();
 }

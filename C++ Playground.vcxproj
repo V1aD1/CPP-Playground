@@ -153,6 +153,7 @@
     <ClCompile Include="C++ Playground.cpp" />
     <ClCompile Include="Builders\BuilderFacets\Person.cpp" />
     <ClCompile Include="Builders\BuilderFacets\PersonBuilder.cpp" />
+    <ClCompile Include="Chain of Responsibility\PointerChain.cpp" />
     <ClCompile Include="Composite\Composite.cpp" />
     <ClCompile Include="Decorator\DynamicDecorator.cpp" />
     <ClCompile Include="Decorator\StaticDecorator.cpp" />
