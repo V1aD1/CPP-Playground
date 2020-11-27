@@ -1,0 +1,10 @@
+Command Pattern
+
+Ordinary C++ field assignments are not recorded anywhere. If someone wanted to audit your program to see why the values are the way they are, they wouldn't be able to since C++ statements aren't recorded anywhere
+
+The Command Pattern specifies that we want an object that represents an operation, or a particular action. The object contains all the information necessary for the action to be undertaken. 
+	
+Example:
+	X should change its field Y to the value Z
+	X should do W()
+

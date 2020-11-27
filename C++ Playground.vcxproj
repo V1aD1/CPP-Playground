@@ -155,6 +155,7 @@
     <ClCompile Include="Builders\BuilderFacets\PersonBuilder.cpp" />
     <ClCompile Include="Chain of Responsibility\BrokerChain.cpp" />
     <ClCompile Include="Chain of Responsibility\PointerChain.cpp" />
+    <ClCompile Include="Command\Command.cpp" />
     <ClCompile Include="Composite\Composite.cpp" />
     <ClCompile Include="Decorator\DynamicDecorator.cpp" />
     <ClCompile Include="Decorator\StaticDecorator.cpp" />

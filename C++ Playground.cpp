@@ -31,9 +31,10 @@ void PropertyProxyExample();
 void VirtualProxyExample();
 void PointerChainExample();
 void BrokerChainExample();
+void CommandExample();
 
 int main()
 {
-	BrokerChainExample();
+	CommandExample();
 	cin.get();
 }
