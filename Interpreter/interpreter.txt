@@ -1,0 +1,5 @@
+"Interpreter" Pattern
+
+Not quite a pattern, more of a way process structured text data.
+
+It does so by turning text data into separate lexical tokens (called lexing) and then interpreting sequences of said tokens (called parsing).

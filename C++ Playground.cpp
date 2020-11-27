@@ -32,9 +32,10 @@ void VirtualProxyExample();
 void PointerChainExample();
 void BrokerChainExample();
 void CommandExample();
+void InterpreterExample();
 
 int main()
 {
-	CommandExample();
+	InterpreterExample();
 	cin.get();
 }

@@ -8,3 +8,5 @@ Example:
 	X should change its field Y to the value Z
 	X should do W()
 
+In this way, we can rollback changes, or serialize them etc.
+

@@ -166,6 +166,7 @@
     <ClCompile Include="Factory\InnerFactory.cpp" />
     <ClCompile Include="Bridge\Pimpl\Pimpl.cpp" />
     <ClCompile Include="Flyweight\Flyweight.cpp" />
+    <ClCompile Include="Interpreter\Interpreter.cpp" />
     <ClCompile Include="Prototype\Prototype.cpp" />
     <ClCompile Include="Proxy\PropertyProxy.cpp" />
     <ClCompile Include="Proxy\VirtualProxy.cpp" />
