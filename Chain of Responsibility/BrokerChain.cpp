@@ -19,6 +19,10 @@ namespace BrokerChain {
 
 	// mediator pattern
 	struct Game {
+		// signals are created by first specifying a return type and function signature (as template parameters)
+		// of the functions that will connect to the signal. Once all functions are connected to a signal,
+		// all functions can be run, in sequential order, by simply calling the signal()
+		// in our case, this happens in the getAttack() method below
 		boost::signals2::signal<void(Query&)> queries;
 	};
 
@@ -32,6 +36,8 @@ namespace BrokerChain {
 		
 		int getAttack() const {
 			Query q{ m_name, Query::Argument::attack, m_attack };
+			
+			// calling every method connected with the signal and passing in q as the parameter
 			m_game.queries(q);
 			return q.m_result;
 		}
