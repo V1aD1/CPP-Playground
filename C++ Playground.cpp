@@ -34,10 +34,11 @@ void BrokerChainExample();
 void CommandExample();
 void InterpreterExample();
 void IteratorsIntroExample();
+void BinaryTreeIteratorExample();
 
 int main()
 {
-	IteratorsIntroExample();
+	BinaryTreeIteratorExample();
 
 	cin.get();
 }
