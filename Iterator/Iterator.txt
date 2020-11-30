@@ -1,0 +1,5 @@
+Iterator Pattern
+
+An object that facilitates the traversal of a data structure. It keeps a reference of the current element, and knows how to move to a different element. 
+
+It can be used implicitly, like in a range-based for, or in coroutines. 
