@@ -141,6 +141,9 @@
     <ClCompile Include="Mediator\ChatRoom\ChatRoomPerson.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Memento\Memento.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h">

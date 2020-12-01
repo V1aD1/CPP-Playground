@@ -37,10 +37,11 @@ void IteratorsIntroExample();
 void BinaryTreeIteratorExample();
 void BoostIteratorFacadeExample();
 void ChatRoomExample();
+void MementoExample();
 
 int main()
 {
-	ChatRoomExample();
+	MementoExample();
 
 	cin.get();
 }
