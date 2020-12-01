@@ -35,10 +35,11 @@ void CommandExample();
 void InterpreterExample();
 void IteratorsIntroExample();
 void BinaryTreeIteratorExample();
+void BoostIteratorFacadeExample();
 
 int main()
 {
-	BinaryTreeIteratorExample();
+	BoostIteratorFacadeExample();
 
 	cin.get();
 }
