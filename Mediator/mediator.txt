@@ -1,0 +1,7 @@
+Mediator Pattern
+
+Components may go in and out of a system at any time ex: chat room, players in an MMO.
+
+It makes no sense for them to have direct references to one another, because those references may go dead. 
+
+Instead, it's better to have all components refer to some central component that facilitates communication between components, without the components necessarily being awate of each other of having direct access to each other. 

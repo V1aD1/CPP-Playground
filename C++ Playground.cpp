@@ -36,10 +36,11 @@ void InterpreterExample();
 void IteratorsIntroExample();
 void BinaryTreeIteratorExample();
 void BoostIteratorFacadeExample();
+void ChatRoomExample();
 
 int main()
 {
-	BoostIteratorFacadeExample();
+	ChatRoomExample();
 
 	cin.get();
 }

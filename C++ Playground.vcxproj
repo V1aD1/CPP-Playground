@@ -155,6 +155,7 @@
     <ClCompile Include="Builders\BuilderFacets\PersonBuilder.cpp" />
     <ClCompile Include="Chain of Responsibility\BrokerChain.cpp" />
     <ClCompile Include="Chain of Responsibility\PointerChain.cpp" />
+    <ClCompile Include="Mediator\ChatRoom\ChatRoom.cpp" />
     <ClCompile Include="Command\Command.cpp" />
     <ClCompile Include="Composite\Composite.cpp" />
     <ClCompile Include="Decorator\DynamicDecorator.cpp" />
@@ -170,6 +171,8 @@
     <ClCompile Include="Iterator\BinaryTreeIterator.cpp" />
     <ClCompile Include="Iterator\BoostIteratorFacade.cpp" />
     <ClCompile Include="Iterator\IteratorsIntro.cpp" />
+    <ClCompile Include="Mediator\ChatRoom\ChatRoomExample.cpp" />
+    <ClCompile Include="Mediator\ChatRoom\ChatRoomPerson.cpp" />
     <ClCompile Include="Prototype\Prototype.cpp" />
     <ClCompile Include="Proxy\PropertyProxy.cpp" />
     <ClCompile Include="Proxy\VirtualProxy.cpp" />
@@ -190,10 +193,12 @@
     <ClInclude Include="Builders\BuilderFacets\PersonBuilder.h" />
     <ClInclude Include="Builders\BuilderFacets\PersonAddressBuilder.h" />
     <ClInclude Include="Builders\BuilderFacets\PersonJobBuilder.h" />
+    <ClInclude Include="Mediator\ChatRoom\ChatRoom.h" />
     <ClInclude Include="Factory\Abstract Factory\DrinkFactory.h" />
     <ClInclude Include="Factory\Abstract Factory\HotDrink.h" />
     <ClInclude Include="Factory\Abstract Factory\HotDrinkFactory.h" />
     <ClInclude Include="Bridge\Pimpl\Pimpl.h" />
+    <ClInclude Include="Mediator\ChatRoom\ChatRoomPerson.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
