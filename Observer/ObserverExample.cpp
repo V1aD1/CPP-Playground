@@ -1,4 +1,5 @@
 #include <iostream>
+#include <boost/signals2.hpp>
 #include "Observer.h"
 #include "Observable.h"
 
@@ -28,6 +29,22 @@ namespace ObserverNamespace {
 			}
 		}
 	};
+
+	template <typename T>
+	struct BoostObservable {
+		boost::signals2::signal<void(T&, const string&)> fieldChanged;
+	};
+
+	class BoostObservablePerson : public BoostObservable<BoostObservablePerson> {
+		int m_age;
+	public:
+		int GetAge() { return m_age; }
+		void SetAge(int age){
+			if (m_age == age) { return; }
+			m_age = age;
+			fieldChanged(*this, "age");
+		}
+	};
 }
 
 void ObserverExample() {
@@ -42,4 +59,15 @@ void ObserverExample() {
 	person.setAge(29); // observer will see this and comment on it
 	person.Unsubscribe(observer);
 	person.setAge(30); // observer will NOT see this since they've unsubscribed
+
+	// here is an example of how to use Boost library to build up the Observer pattern
+	BoostObservablePerson p2;
+	auto conn = p2.fieldChanged.connect(
+		// lambda function
+		[](BoostObservablePerson& p, const string& fieldName) {
+			cout << fieldName << " has changed\n";
+		}
+	);
+
+	p2.SetAge(20); // the lamdba function above will trigger because the age is changing
 }
