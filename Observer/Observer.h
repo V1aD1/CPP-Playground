@@ -6,6 +6,7 @@ using namespace std;
 template<typename T>
 class Observer
 {
-	virtual void FieldChanged(T& source, string fieldName) = 0;
+public:
+	virtual void FieldChanged(T& source, const string& fieldName) = 0;
 };
 
