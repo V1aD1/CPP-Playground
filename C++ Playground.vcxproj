@@ -174,8 +174,6 @@
     <ClCompile Include="Mediator\ChatRoom\ChatRoomExample.cpp" />
     <ClCompile Include="Mediator\ChatRoom\ChatRoomPerson.cpp" />
     <ClCompile Include="Memento\Memento.cpp" />
-    <ClCompile Include="Observer\Observable.cpp" />
-    <ClCompile Include="Observer\Observer.cpp" />
     <ClCompile Include="Observer\ObserverExample.cpp" />
     <ClCompile Include="Prototype\Prototype.cpp" />
     <ClCompile Include="Proxy\PropertyProxy.cpp" />
@@ -205,6 +203,7 @@
     <ClInclude Include="Mediator\ChatRoom\ChatRoomPerson.h" />
     <ClInclude Include="Observer\Observable.h" />
     <ClInclude Include="Observer\Observer.h" />
+    <ClInclude Include="Observer\SaferObservable.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
