@@ -1,0 +1,8 @@
+Observer Pattern
+
+Sometimes we need to be informed when certain things happen: object's field changes, object does something, some external event occurs etc.
+
+We want to listen to EVENTS and be notified when they occur. The entity generating the events is an OBSERVABLE entity.
+
+Keep in mind that there are two different sets of terminology used for this patter: EVENT and SUBSCRIBER, or SIGNAL and SLOT (which are used in Boost, QT etc.)
+

@@ -4,4 +4,6 @@ A system goes through changes, and there are different ways of navigating those 
 
 Another way is to simply save a snapshot of the system. That is where the Memento pattern comes in. 
 
-The Memento pattern is a token/ handle representing the system state. It allows us to roll back to the state where the token was generated. It may or may NOT directly expose state information. 
+The Memento pattern is a token/ handle representing the system state. It allows us to roll back to the state where the token was generated. It usually should NOT expose its state information, or allow its state information to be changed, because then the memento could be used to "restore" a system to a point at which it never was.
+
+A memento typically has no functions of its own, it's just a token with some values. 
