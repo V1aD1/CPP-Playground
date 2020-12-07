@@ -1,0 +1,13 @@
+Strategy Pattern
+
+Much functionality can be decomposed into HIGHER and LOWER level parts
+
+For example making tea involves:
+	Boil water, pour it into cup (High level part)
+	Put teabag into water (Lower leve, tea specific part)
+
+The high level part can be reused for making coffee or hot chocolate for example.
+
+So, the Strategy Pattern enables the exact behaviour of a system to be selected at run time (dynamic) or compile time (static).
+
+It is also known as a "policy" in the C++ world.

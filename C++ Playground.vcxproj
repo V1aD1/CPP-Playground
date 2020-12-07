@@ -187,6 +187,7 @@
     <ClCompile Include="SOLID Principles\LiskovSubstitutionPrinciple.cpp" />
     <ClCompile Include="State\OutdatedState.cpp" />
     <ClCompile Include="State\State.cpp" />
+    <ClCompile Include="Strategy\DynamicStrategy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentBuilder.h" />

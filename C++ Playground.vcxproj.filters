@@ -153,6 +153,9 @@
     <ClCompile Include="State\State.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Strategy\DynamicStrategy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h">

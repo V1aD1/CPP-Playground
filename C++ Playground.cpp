@@ -41,10 +41,13 @@ void MementoExample();
 void ObserverExample();
 void OutdatedStateExample();
 void StateExample();
+void DynamicStrategyExample();
+
+
 
 int main()
 {
-	StateExample();
+	DynamicStrategyExample();
 
 	cin.get();
 }
