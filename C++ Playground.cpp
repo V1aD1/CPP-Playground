@@ -40,11 +40,11 @@ void ChatRoomExample();
 void MementoExample();
 void ObserverExample();
 void OutdatedStateExample();
+void StateExample();
 
 int main()
 {
-	OutdatedStateExample();
+	StateExample();
 
 	cin.get();
-
 }
