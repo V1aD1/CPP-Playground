@@ -39,10 +39,12 @@ void BoostIteratorFacadeExample();
 void ChatRoomExample();
 void MementoExample();
 void ObserverExample();
+void OutdatedStateExample();
 
 int main()
 {
-	ObserverExample();
+	OutdatedStateExample();
 
 	cin.get();
+
 }

@@ -147,6 +147,9 @@
     <ClCompile Include="Observer\ObserverExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="State\OutdatedState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentElement.h">
