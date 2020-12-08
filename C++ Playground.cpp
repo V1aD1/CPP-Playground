@@ -43,8 +43,6 @@ void OutdatedStateExample();
 void StateExample();
 void DynamicStrategyExample();
 
-
-
 int main()
 {
 	DynamicStrategyExample();
