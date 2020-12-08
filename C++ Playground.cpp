@@ -42,10 +42,11 @@ void ObserverExample();
 void OutdatedStateExample();
 void StateExample();
 void DynamicStrategyExample();
+void TemplateExample();
 
 int main()
 {
-	DynamicStrategyExample();
+	TemplateExample();
 
 	cin.get();
 }
