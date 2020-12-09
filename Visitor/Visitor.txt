@@ -1,0 +1,14 @@
+Visitor Pattern
+
+Motivation: Need to define a new operation on an entire class hierarchy.
+	Example: make a document model printable to HTML/ Markdown
+
+But we do NOT want to keep modifying every class in the hierarchy (remember the open closed principle!)
+
+Also, we need to access aspects of the different classes that are NOT common.
+This means that we cannot put everything into a single interface, since classes do not share most things.
+
+So, a solution is to create an external component to handle rendering, that preferably avoid type checks.
+
+So, the visitor pattern is a pattern where a component (visitor) is allowed to traverse the entire inheritance hierarchy.
+It is implemented by propagating a single visit() method throughout the entire hierarchy.

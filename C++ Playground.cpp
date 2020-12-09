@@ -43,10 +43,11 @@ void OutdatedStateExample();
 void StateExample();
 void DynamicStrategyExample();
 void TemplateExample();
+void IntrusiveVisitorExample();
 
 int main()
 {
-	TemplateExample();
+	IntrusiveVisitorExample();
 
 	cin.get();
 }
