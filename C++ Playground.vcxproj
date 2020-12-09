@@ -190,6 +190,7 @@
     <ClCompile Include="Strategy\DynamicStrategy.cpp" />
     <ClCompile Include="Template\Template.cpp" />
     <ClCompile Include="Visitor\IntrusiveVisitor.cpp" />
+    <ClCompile Include="Visitor\ReflectiveVisitor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builders\FluentBuilder\FluentBuilder.h" />

@@ -44,10 +44,11 @@ void StateExample();
 void DynamicStrategyExample();
 void TemplateExample();
 void IntrusiveVisitorExample();
+void ReflectiveVisitorExample();
 
 int main()
 {
-	IntrusiveVisitorExample();
+	ReflectiveVisitorExample();
 
 	cin.get();
 }
