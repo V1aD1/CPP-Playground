@@ -189,8 +189,10 @@
     <ClCompile Include="State\State.cpp" />
     <ClCompile Include="Strategy\DynamicStrategy.cpp" />
     <ClCompile Include="Template\Template.cpp" />
+    <ClCompile Include="Visitor\AcyclicVisitor.cpp" />
     <ClCompile Include="Visitor\DoubleDispatch.cpp" />
     <ClCompile Include="Visitor\IntrusiveVisitor.cpp" />
+    <ClCompile Include="Visitor\Multimethod.cpp" />
     <ClCompile Include="Visitor\ReflectiveVisitor.cpp" />
   </ItemGroup>
   <ItemGroup>

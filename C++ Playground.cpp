@@ -46,10 +46,12 @@ void TemplateExample();
 void IntrusiveVisitorExample();
 void ReflectiveVisitorExample();
 void DoubleDispatchExample();
+void AcyclicVisitorExample();
+void MultimethodExample();
 
 int main()
 {
-	DoubleDispatchExample();
+	MultimethodExample();
 
 	cin.get();
 }
