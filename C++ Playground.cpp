@@ -45,10 +45,11 @@ void DynamicStrategyExample();
 void TemplateExample();
 void IntrusiveVisitorExample();
 void ReflectiveVisitorExample();
+void DoubleDispatchExample();
 
 int main()
 {
-	ReflectiveVisitorExample();
+	DoubleDispatchExample();
 
 	cin.get();
 }
