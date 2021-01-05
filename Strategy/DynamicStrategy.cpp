@@ -95,7 +95,7 @@ void DynamicStrategyExample() {
 	textProc.AppendList({ "item 1", "item 2", "item 3" });
 	cout << textProc.str() << endl; 
 
-	// setting up a static Strategy is eacy: add template argument to the TextProcessor, 
+	// setting up a static Strategy is easy: add template argument to the TextProcessor, 
 	// which instantiates a private variable of type T, then use that object in AppendList()
 	// obviously SetOutputFormat() can no longer exist. It's basically a less robust version
 	// of the dynamic strategy, but it's there if you want it. 

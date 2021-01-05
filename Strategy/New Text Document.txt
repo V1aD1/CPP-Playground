@@ -4,7 +4,7 @@ Much functionality can be decomposed into HIGHER and LOWER level parts
 
 For example making tea involves:
 	Boil water, pour it into cup (High level part)
-	Put teabag into water (Lower leve, tea specific part)
+	Put teabag into water (Lower lever, tea specific part)
 
 The high level part can be reused for making coffee or hot chocolate for example.
 

@@ -22,7 +22,7 @@ namespace FactoryMethod {
 		// Uh oh we can't have multiple constructors with the same signature in C++!
 		//Point(float rho, float theta) {}
 
-		// Ok, this technically works, BUT it isn't cleat that a corresponds to x/ rho value
+		// Ok, this technically works, BUT it isn't clear that a corresponds to x/ rho value
 		// and that b corresponds to y/ theta value. We'd have to leave comments in order to
 		// specify that. So this is ALSO bad.
 		BadPoint(float a, float b, PointType type = PointType::cartesian) {

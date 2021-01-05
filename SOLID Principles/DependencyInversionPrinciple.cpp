@@ -23,7 +23,7 @@ struct Person {
 };
 
 // Low-level module
-struct Relationships {
+struct BadRelationships {
 	vector<tuple<Person, Relationship, Person>> relations;
 
 	void AddParentChildRelationship(Person& parent, Person& child) {
@@ -35,7 +35,7 @@ struct Relationships {
 // High-level module
 struct BadResearch {
 	// This violates A. because it depends on a low-level module instead of an abstraction
-	BadResearch(Relationships& relationships, const string& name) {
+	BadResearch(BadRelationships& relationships, const string& name) {
 
 		// This violates B. because it depends on the DETAILS of the implementation
 		// I mean, what if relations member becomes private in the future??
@@ -91,7 +91,7 @@ void DependencyInversionPrinciple() {
 	Person child1{ "Lilith" }, child2{"Gan"};
 
 	// weird way to instantiate a struct but whatever
-	Relationships relationships;
+	BadRelationships relationships;
 	relationships.AddParentChildRelationship(parent, child1);
 	relationships.AddParentChildRelationship(parent, child2);
 

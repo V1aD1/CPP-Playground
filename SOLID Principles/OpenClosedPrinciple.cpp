@@ -27,7 +27,7 @@ struct BadProductFilter {
 	}
 
 	// This is BAD. We may require a filter by name later,
-	// which once again copies basically the same method over.
+	// which once again copies basically the same method over, and ALSO modifies this class!
 	// Even worse, if we require a filter for size AND color then we'll need ANOTHER method. 
 	// This architecure does not scale well
 	vector<Product*> BySize(vector<Product*> items, Size size) {
@@ -41,11 +41,13 @@ struct BadProductFilter {
 };
 
 // Uses the Specification pattern to address the above concerns
-template <typename T> struct Specification {
+template <typename T> 
+struct Specification {
 	virtual bool IsSatisfied(T* item) const = 0;
 };
 
-template <typename T> struct Filter {
+template <typename T> 
+struct Filter {
 	virtual vector<T*> filter(vector<T*> items, const Specification<T>& spec) = 0;
 };
 
@@ -85,7 +87,8 @@ struct SizeSpecification : Specification<Product> {
 
 };
 
-template <typename T> struct AndSpecification : Specification<T> {
+template <typename T> 
+struct AndSpecification : Specification<T> {
 	vector<Specification<T>*> m_specs;
 
 	AndSpecification(vector<Specification<T>*> specs): m_specs(specs){}

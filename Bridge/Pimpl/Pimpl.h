@@ -5,7 +5,7 @@
 /// <summary>
 /// Pimpl stands for "pointer to implementation", and it's a way to obfuscate the implementation
 /// details of your class. When working in cpp, you have to provide the user of your API with 
-/// the header files, which contain all function definitions, regardless of whether theyy're private or not.
+/// the header files, which contain all function definitions, regardless of whether they're private or not.
 /// This may reveal implementation details that you don't want to reveal. 
 /// 
 /// Luckily, clients do NOT have access to cpp files. 
