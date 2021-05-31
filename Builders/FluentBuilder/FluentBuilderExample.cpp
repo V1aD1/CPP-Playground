@@ -14,8 +14,8 @@
 using namespace std;
 
 /// <summary>
-/// NOTE: None of this works due to circular dependency problems, and forward declarations don't help.
-/// Need to split this into .cpp and .h files to get this to work.
+/// A fluent builder is one where the building process is achieved by chaining commands 
+/// that always return a reference to the object being built 
 /// </summary>
 void FluentBuilderExample() {
 	cout << "Fluent Builder: " << endl;

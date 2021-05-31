@@ -1,9 +1,12 @@
 Memento Pattern
 
-A system goes through changes, and there are different ways of navigating those changes. One way is to record every change (Command pattern) and allow a command to undo itself. 
+A system goes through changes, and there are different ways of navigating those changes. 
+One way is to record every change (Command pattern) and allow a command to undo itself. 
 
 Another way is to simply save a snapshot of the system. That is where the Memento pattern comes in. 
 
-The Memento pattern is a token/ handle representing the system state. It allows us to roll back to the state where the token was generated. It usually should NOT expose its state information, or allow its state information to be changed, because then the memento could be used to "restore" a system to a point at which it never was.
+The Memento pattern is a token/ handle representing the system state. It allows us to roll back to the state where the token was generated. 
+It usually should NOT expose its state information, or allow its state information to be changed, 
+because then the memento could be used to "restore" a system to a point at which it never was.
 
 A memento typically has no functions of its own, it's just a token with some values. 

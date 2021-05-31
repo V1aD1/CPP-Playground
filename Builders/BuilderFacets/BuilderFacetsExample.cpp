@@ -6,7 +6,7 @@
 
 /// <summary>
 /// Different facets of an object can be built with different builders working in tandem
-/// via a base class.
+/// via a base class. You can 
 /// </summary>
 void BuilderFacetsExample() {
 	Person p = Person::create().lives().at("1234 Dundas")

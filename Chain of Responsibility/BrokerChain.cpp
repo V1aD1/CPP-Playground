@@ -85,7 +85,7 @@ void BrokerChainExample() {
 
 	cout << strongGoblin << endl;
 	{
-		// The modifier is only applied when in active,
+		// The modifier is only applied when it's active,
 		// and it unsubscribes once we leave this scope
 		DoubleAttackModifier dmg{ game, strongGoblin };
 		cout << strongGoblin << endl;

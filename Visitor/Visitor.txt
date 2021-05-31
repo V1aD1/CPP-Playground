@@ -17,4 +17,5 @@ It is implemented by propagating a single visit() method throughout the entire h
 	Then add an accept(Visitor* visitor) function to each element in the heirarchy.
 		Each accept(Visitor* visitor) simple calls visitor.visit(this)
 
-In this way, you are able to add new functionality to a bunch of classes that aren't similar, through inheritance. Hoever, since this doesn't modify the actual classes in any way, it DOESN'T violate the open closed principle!
+In this way, you are able to add new functionality to a bunch of classes that aren't similar, through inheritance. 
+However, since this doesn't modify the actual classes in any way, it DOESN'T violate the open closed principle!

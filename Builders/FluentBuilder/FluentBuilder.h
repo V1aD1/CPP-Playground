@@ -15,7 +15,7 @@ using namespace std;
 /// <summary>
 /// This builder is fluent. "Fluent interface" is a OOP design that relies extensively on
 /// method chaining. You can even ensure the object is created properly by FORCING the dev
-/// to call the correct methods in the correct order, until all required attributes are set
+/// to call the correct methods in the correct order, until all required attributes are set (check out Builder Facets)
 /// </summary>
 struct FluentBuilder {
 	FluentElement root;
