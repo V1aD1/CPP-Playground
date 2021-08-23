@@ -15,7 +15,7 @@ So, the visitor pattern is a pattern where a component (visitor) is allowed to t
 It is implemented by propagating a single visit() method throughout the entire hierarchy.
 	Create a SEPARATE visitor object with visit(Foo*), visit(Bar*) etc. for each element in the heirarchy.
 	Then add an accept(Visitor* visitor) function to each element in the heirarchy.
-		Each accept(Visitor* visitor) simple calls visitor.visit(this)
+		Each accept(Visitor* visitor) simply calls visitor.visit(this)
 
 In this way, you are able to add new functionality to a bunch of classes that aren't similar, through inheritance. 
 However, since this doesn't modify the actual classes in any way, it DOESN'T violate the open closed principle!
